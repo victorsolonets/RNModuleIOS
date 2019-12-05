@@ -35,30 +35,29 @@ s.source = { :git => "https://github.com/victorsolonets/RNModuleIOS.git",
 s.framework = "UIKit"
 s.dependency 'Alamofire', '~> 4.7'
 s.dependency 'MBProgressHUD', '~> 1.1.0'
-s.dependency 'React', :path => '../node_modules/react-native', :subspecs => [
-  'Core',
-  'CxxBridge',
-  'DevSupport',
-  'RCTActionSheet',
-  'RCTAnimation',
-  'RCTBlob',
-  'RCTGeolocation',
-  'RCTImage',
-  'RCTLinkingIOS',
-  'RCTNetwork',
-  'RCTSettings',
-  'RCTText',
-  'RCTVibration',
-  'RCTWebSocket',
-]
+s.dependency 'React'
+s.dependency 'Core'
+s.dependency 'CxxBridge'
+s.dependency 'DevSupport'
+s.dependency 'RCTActionSheet'
+s.dependency 'RCTAnimation'
+s.dependency 'RCTBlob'
+s.dependency 'RCTGeolocation'
+s.dependency 'RCTImage'
+s.dependency 'RCTLinkingIOS'
+s.dependency 'RCTNetwork'
+s.dependency 'RCTSettings'
+s.dependency 'RCTText'
+s.dependency 'RCTVibration'
+s.dependency 'RCTWebSocket'
 
-s.dependency 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
-s.dependency 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
-s.dependency 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
-s.dependency 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
-s.dependency 'RNGestureHandler', :podspec => '../node_modules/react-native-gesture-handler/RNGestureHandler.podspec'
-s.dependency 'RNReanimated', :podspec => '../node_modules/react-native-reanimated/RNReanimated.podspec'
-s.dependency 'RNScreens', :path => '../node_modules/react-native-screens'
+s.dependency 'yoga'
+s.dependency 'DoubleConversion'
+s.dependency 'glog'
+s.dependency 'Folly'
+s.dependency 'RNGestureHandler'
+s.dependency 'RNReanimated'
+s.dependency 'RNScreens'
 
 # 8
 s.source_files = "RWPickFlavor/**/*.{swift}"
